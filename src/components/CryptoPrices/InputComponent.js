@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Container } from 'react-bootstrap';
+import Form from 'react-bootstrap/Form';
+import InputGroup from 'react-bootstrap/InputGroup';
 
 
 
@@ -18,10 +20,21 @@ function InputComponent() {
 
   return (
     <Container>
-<Button onClick={handleButtonClick} variant="secondary">Enter</Button>{' '}    
-  <input type="text" value={inputText} onChange={handleInputChange} />
-      <p>{outputText}</p>
+<InputGroup className="mb-3">
+  <Button onClick={handleButtonClick} variant="primary" id="button-addon1">
+    Button
+  </Button>
+  <Form.Control
+    value={inputText}
+    onChange={handleInputChange}
+    aria-label="Example text with button addon"
+    aria-describedby="basic-addon1"
+    style={{ backgroundColor: 'transparent', color: '#33B0FF', fontWeight: "bold" }}
+  />
+</InputGroup>
+
       <h1><strong className="main-name"> {outputText}</strong></h1>
+      
     </Container>
   );
 }

@@ -46,10 +46,10 @@ function CryptoPrices() {
           <h1 className="heading-name">Ethereum Price : <strong className="main-name">${ethPrice}</strong></h1>
           
         </Container>
-        <InputComponent />
+        
         </section>
       </Container>
-    
+      <InputComponent />
     </section>
     
   );
