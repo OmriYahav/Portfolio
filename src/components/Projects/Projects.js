@@ -7,7 +7,7 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import bitsOfCode from "../../Assets/Projects/Projecttrace1.png";
 
 function Projects() {
   return (
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="🌎 Traceroute Visualizer 🌐"
+              description="This project is a web application that allows users to visualize the path that internet packets take from their computer to a specified destination."
+              ghLink="https://github.com/OmriYahav/Traceroute-Visualizer"
+              demoLink="https://github.com/OmriYahav/Traceroute-Visualizerttps://blogs.soumya-jit.tech/"
             />
           </Col>
 

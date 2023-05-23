@@ -1,14 +1,14 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgba(81, 31, 97, 0),
+    rgba(12, 8, 24, 0)
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgba(56, 48, 48, 0),
+    rgba(106, 96, 121, 0)
   );
 
   --imp-text-color: #33B0FF;
@@ -32,7 +32,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: #050c13;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -57,7 +57,7 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #4554a5;
 }
 
 /* Handle */
@@ -76,9 +76,9 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: #576cca00 !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+  box-shadow: 0px 10px 10px 0px rgba(31, 21, 83, 0.247) !important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -155,8 +155,14 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
+  height: 2.1em !important;
   width: 2.5em !important;
+
+}
+
+.logo1 {
+  height: 2.1em !important;
+  width: 8.5em !important;
 }
 
 .navbar-nav .nav-link {
@@ -257,7 +263,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  /* background-image: var(--image-gradient), url(./Assets/home-bg14.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -402,7 +408,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: rgba(10, 4, 22, 0.959);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
