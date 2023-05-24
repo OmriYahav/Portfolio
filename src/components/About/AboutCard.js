@@ -9,28 +9,28 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Omri Yahav</span>
-            from <span className="purple"> Hod Hasharon, Israel.</span>
-            <br />I am a IT Manager at HED-GROUP and  junior DevSecOps Student in Bar-Ilan University.
+            , from <span className="purple"> Hod Hasharon, Israel.</span>
+            <br />I am a IT Administrator at HED-GROUP and   DevSecOps Student in Bar-Ilan University.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from building tools and automations, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Riding Motocross
+              <ImPointRight /> Listen To Podcasts
             </li>
             <li className="about-activity">
-              <ImPointRight /> Riding Mountain Bike 
+              <ImPointRight /> Security vulnerability search 
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
             <li className="about-activity">
-              <ImPointRight /> Growing Green Urban Plants
+              <ImPointRight /> Riding Motocross
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "##00052e" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
           <footer className="blockquote-footer">Omri Yahav</footer>

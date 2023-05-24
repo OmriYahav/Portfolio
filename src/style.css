@@ -291,18 +291,18 @@ button:focus {
 }
 
 .Typewriter__wrapper {
-  font-size: 2.2em !important;
+  font-size: 2.9em !important;
   color: #33B0FF !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
-  font-size: 2.4em !important;
-  color: #33B0FF !important;
+  font-size: 3.2em !important;
+  color: #ffffff !important;
 }
 
 @media (max-width: 767px) {
   .Typewriter__wrapper {
-    font-size: 1.4em !important;
+    font-size: 3.2em !important;
     font-weight: 500 !important;
     position: absolute !important;
   }
@@ -681,4 +681,6 @@ button:focus {
 }
 
 
-              
+.th {
+  color: #33B0FF;
+}

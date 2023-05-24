@@ -87,16 +87,16 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/CryproPrices"
+                to="/Tools"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> CryptoPrices
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Tools
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href="https://github.com/OmriYahav"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -106,7 +106,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/OmriYahav"
                 target="_blank"
                 className="fork-btn-inner"
               >

@@ -1,7 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -19,43 +17,19 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with DevOps tools, automation , applications, and continuous integration/continuous delivery (CI/CD) pipelines.
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> Python & JavaScript. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new security solutions that are integrated into the DevOps process. I am passionate about finding ways to automate security tasks and make them more efficient &nbsp;
-              <i>
-                <b className="purple">DevOps Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  CI\CD.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+            I'm excited to share my passion for <b className="purple">DevOps</b>, automation, and security with you.
+            <br></br><br></br>
+             As a IT Administrator & DevSecOps Engineer, I have a strong background in  <b className="purple">Python</b>, and I'm constantly exploring new technologies and tools to enhance the software development lifecycle.
+             <br></br><br></br>
+               With a focus on <b className="purple">automation</b> and efficiency, I strive to find innovative ways to streamline processes and make them more secure and robust.
+               <br></br><br></br>
+              Throughout my journey , I have gained expertise in building <b className="purple">CI/CD pipelines, leveraging tools like Jenkins, CI/CD, Docker, Kubernetes, Ansible, and Terraform.</b> 
+              <br></br><br></br>
+              <br></br><br></br>
+            
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
+
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
