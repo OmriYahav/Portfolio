@@ -61,15 +61,14 @@ function Tools() {
 
   return (
     <section>
+      
       <Container fluid className="home-section" id="home">
         <Particle />
-        <section>
           <Container className="home-content">
             {renderJsonData()}
             <h1 className="heading-name">Bitcoin Price: <strong className="main-name">${btcPrice}</strong></h1>
             <h1 className="heading-name">Ethereum Price: <strong className="main-name">${ethPrice}</strong></h1>
           </Container>
-        </section>
       </Container>
       <InputComponent />
     </section>

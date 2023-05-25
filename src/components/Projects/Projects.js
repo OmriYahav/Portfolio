@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-// import chatify from "../../Assets/Projects/chatify.png";
+ import FortiGET from "../../Assets/Projects/FortiGET.png";
 import Ag from "../../Assets/Projects/Ag.png";
 import TracerouteVisualizer from "../../Assets/Projects/Projecttrace1.png";
 
@@ -25,7 +25,7 @@ function Projects() {
             <ProjectCard
               imgPath={Ag}
               isBlog={false}
-              title="Availability Agent"
+              title="Availability Agent ⚡"
               description="Script written in Bash that performs periodic ping checks on a list of hosts and records the results in InfluxDB. The ping results can be visualized using Grafana. 🚀"
               ghLink="https://github.com/OmriYahav/Availability-Agent"
             />
@@ -43,11 +43,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={FortiGET}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink=""
+              title="FortiGET"
+              description="This is a Python script that retrieves information from a FortiGate device using its API.
+
+              The script imports the necessary libraries, sets the API endpoints, and includes the API key in the headers. Then, it defines the URLs to access the API and makes GET requests to retrieve the desired information."
+              ghLink="https://github.com/OmriYahav/FotiGET"
             />
           </Col>
 
