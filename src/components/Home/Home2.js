@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import myImg from "../../Assets/docker.png";
+
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -33,10 +35,15 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
+           
+            
+            <img src={myImg} className="img-fluid" alt="avatar" width={600} /><br></br>
+            <br></br>
             <h1>FIND ME ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
+
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
