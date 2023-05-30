@@ -50,27 +50,39 @@ function Tools() {
 
   const renderJsonData = () => {
     if (jsonData) {
-      return Object.entries(jsonData).map(([key, value]) => (
-        <h1 className="heading-name" key={key}>
-          {key}: <strong className="main-name">{value}</strong>
-        </h1>
-      ));
+      return (
+        <Table size="sm" striped bordered hover variant="dark">
+          <tbody>
+            {Object.entries(jsonData).map(([key, value]) => (
+              <tr  key={key}>
+                <td>{key}</td>
+                <td>{value}</td>
+              </tr>
+            ))}
+          </tbody>
+        </Table>
+      );
     }
     return null;
   };
-
+  
   return (
-    <section>
+
       
+      <section>
       <Container fluid className="home-section" id="home">
         <Particle />
+           
           <Container className="home-content">
-            {renderJsonData()}
+            
             <h1 className="heading-name">Bitcoin Price: <strong className="main-name">${btcPrice}</strong></h1>
             <h1 className="heading-name">Ethereum Price: <strong className="main-name">${ethPrice}</strong></h1>
+            <h1 className="heading-name">{renderJsonData()}</h1>
+
           </Container>
+          
       </Container>
-      <InputComponent />
+      <InputComponent/>
     </section>
   );
 }
