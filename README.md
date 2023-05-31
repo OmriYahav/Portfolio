@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v3.2<br/>
-  <a href="" target="_blank">https://omriyahav.netlify.app</a>
+  <a href="https://omriyahav.netlify.app" target="_blank">https://omriyahav.netlify.app</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />
