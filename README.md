@@ -10,8 +10,6 @@
 
 
 
-
-
 ## Built With
 
 My personal portfolio <a href="https://omriyahav.netlify.app" target="_blank">omriyahav.netlify.app</a> which features some of my github projects Tools and technical skills.<br/>
@@ -29,7 +27,7 @@ This project was built using these technologies.
 
 **🎨 Styled with React-Bootstrap and Css with easy to customize colors**
 
-**📱 Fully Responsive**
+**📱 Fully Responsive** 
 
 
 
