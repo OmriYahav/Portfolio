@@ -281,12 +281,13 @@ button:focus {
 }
 
 .heading-name {
-  font-size: 1.2em !important;
+  font-size: 1.8em !important;
   padding-left: 45px !important;
 }
 
 .main-name {
   color: #33B0FF;
+  font-size: 2.2em !important;
 }
 
 .Typewriter__wrapper {

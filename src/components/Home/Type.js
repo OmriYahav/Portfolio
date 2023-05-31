@@ -7,8 +7,8 @@ function Type() {
       options={{
         strings: [
           "DevSecOps Engineer",
-          "IT Administrator",
-          "Threat Hunter",
+          "Information Security Administrator",
+          "Bug Bounty Hunter",
           "Motocross Rider",
         ],
         autoStart: true,
