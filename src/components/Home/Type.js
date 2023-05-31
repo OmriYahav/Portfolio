@@ -8,8 +8,8 @@ function Type() {
         strings: [
           "DevSecOps Engineer",
           "IT Administrator",
-          "Threat Hunter",
-          "Growing Green Urban Plants",
+          "Threat Hunter",ג
+          "Motocross Rider",
         ],
         autoStart: true,
         loop: true,
