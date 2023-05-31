@@ -8,9 +8,6 @@
 # testing
 /coverage
 
-# production
-/build
-
 # misc
 .DS_Store
 .env
@@ -27,3 +24,4 @@ yarn-error.log*
 
 Server/node_modules
 Server/config.js
+
